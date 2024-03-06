@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bikcraft</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #FFFFFF;
+      font-family: "Roboto", sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    #logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+
+    .button {
+      background-color: #FFBF00;
+      color: #332200;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    #chooseButton {
+      background-color: #FFBF00;
+      color: #332200;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    #subtitle {
+      color: #B2B2B2;
+      margin-top: 20px;
+      font-size: 40px;
+      margin: 50px;
+    }
+
+    #bikeImage {
+      max-width: 40%;
+      height: auto;
+      margin-top: 20px;
+      margin-left: 400px;
+      border-radius: 5px;
+      }
+
+      .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div id="logo">Bikcraft</div>
+    <nav>
+      <a href="#" class="button">Bicicleta</a>
+      <a href="#" class="button">Seguros</a>
+      <a href="#" class="button">Contato</a>
+    </nav>
+  </header>
+
+  <section class="content">
+    
+    <a href="#" id="chooseButton">Escolha a sua</a>
+    <div id="subtitle">Bicicletas feitas sob medida</div>
+    <img src="bike.webp" alt="Bicicleta" id="bikeImage">
+  </section>
+</body>
+</html>
